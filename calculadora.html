@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+<!-- 	<script>
+		let screen="";
+		let signtype="";
+
+		function imp(n){
+		screen+=n;
+		document.getElementById("answer").innerHTML=screen;
+		}
+		function limpiar(p){
+	signtype=p;
+	//cambio valor texto a valor número.
+	num1=Number(screen);
+	document.getElementById("answer").innerHTML=num1;
+	screen="";
+	
+}
+	</script> -->
+</head>
+<body>
+	<div class="calc">
+		<br>
+		<div id="answer" class="answer"></div>
+		 <button onclick="javascript:window.location.reload()">AC</button>
+		 <button 
+		 >±</button>
+		 <button id="ope">%</button>
+		 <button onclick="limpiar('/')" id="ope" class="naranja">÷</button>
+		<br>
+		 <button onclick="imp('7')" class="negro">7</button>
+		 <button onclick="imp('8')" class="negro">8</button>
+		 <button onclick="imp('9')" class="negro">9</button>
+		 <button onclick="limpiar('*')" id="ope"class="naranja">x</button>
+		<br>
+		 <button onclick="imp('4')" class="negro">4</button>
+		 <button onclick="imp('5')" class="negro">5</button>
+		 <button onclick="imp('6')" class="negro">6</button>
+		 <button onclick="limpiar('-')"id="ope" class="naranja1">—</button>
+		<br>
+		 <button onclick="imp('1')" class="negro">1</button>
+		 <button onclick="imp('2')" class="negro">2</button>
+		 <button onclick="imp('3')" class="negro">3</button>
+		 <button onclick="limpiar('+')" id="ope" class="naranja">+</button>
+		<br>
+		 <button onclick="imp('0')" class="cero">0</button>
+		 <button onclick="imp('.')" class="negro">.</button>
+		 <button onclick="res()" class="naranja">=</button>
+</div>
+
+<script type="text/javascript" src="Clases FrontEnd/calculadora.js">
+</script>
+</body>
+</html>

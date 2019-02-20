@@ -1,0 +1,53 @@
+
+@font-face {
+  font-family: let;
+  src: url(helvetica.otf);
+}
+.calc{
+	width: 280px;
+	height: 430px;
+	background-color: black;
+	border-radius: 10px;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+button{
+	font-family: let;
+	width: 60px;
+	height: 60px;
+	margin-top: 6px;
+	margin-left: 5px;
+	margin-right: 0px;
+	font-size: 22px; 
+	border-style: none;
+	border-radius: 60px;
+}
+.negro{
+	background-color:#4f4f4f;
+	color: white;
+}
+.naranja{
+	background-color: orange;
+	color: white;
+}
+.naranja1{
+	background-color: orange;
+	color: white;
+	font-size: 15px;
+}
+.cero {
+	color: white;
+	background-color: #4f4f4f; 
+	width: 130px;
+	height: 60px;
+}
+.answer{
+	width: 260px;
+	height: 70px;
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 70px;
+	text-align: center;
+	font-family: let;
+	font-size: 30px; 
+}
